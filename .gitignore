@@ -1,0 +1,21 @@
+# PyInstaller 构建产物
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+
+# 运行时生成的用户配置（含机器相关路径）
+config.json
+
+# 图标由 build.py 生成
+icon.ico
+
+# 开发测试脚本（非交付内容）
+dev/
+
+# 系统文件
+.DS_Store
+Thumbs.db
